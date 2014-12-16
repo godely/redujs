@@ -62,13 +62,11 @@ Mais exemplos [aqui](https://github.com/godely/redujs/examples).
 3. Dê commit nas mudanças
 4. Mande um pull request
 
-<img src="https://github.com/downloads/redu/redupy/redutech-marca.png" alt="Redu Educational Technologies" width="300">
-
-Este projeto é financiado e mantido pelo [Redu Educational Techologies](http://tech.redu.com.br).
+Este projeto é mantido pelo [OpenRedu](http://openredu.cin.ufpe.br/?lang=pt).
 
 ## Copyright
 
-Copyright (c) 2012 Redu Educational Technologies
+Copyright (c) 2014 Openredu Educational Technologies
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
