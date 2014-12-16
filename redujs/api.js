@@ -10,7 +10,7 @@ module.exports = function(consumer_key, consumer_secret, pin, base_url, model_fa
   self.binder = new Binder(self);
 
   self.getAuthorizeUrl = function() {
-    return self.client.getAuthorizeUrl();
+    return self.client.getAuthUrl();
   }
 
   self.initClient = function(pin, callback) {
