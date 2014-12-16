@@ -13,7 +13,7 @@ Depedências utilizados:
 É necessário npm (Node package manager) para a instalação do ReduJS.
 
 ```sh
-$ sudo npm install git+git://github.com:godely/redujs.git
+$ sudo npm install git+https://github.com/godely/redujs.git
 ```
 
 ## Como usar a api
