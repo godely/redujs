@@ -53,7 +53,7 @@ Teste a autenticação com uma requisição simples, este metódo deve retornar 
 console.log(redu.getMe())
 ```
 
-Mais exemplos [aqui](https://github.com/godely/redujs/examples).
+Mais exemplos [aqui](https://github.com/godely/redujs/tree/master/examples).
 
 ## Como contribuir
 
