@@ -2,9 +2,9 @@ var HttpClient = require('./HttpClient');
 var Binder = require('./binder');
 var ModelFactory = require('./models');
 
-module.exports = function(consumer_key, consumer_secret, pin, base_url, model_factory) {
+module.exports = function(consumer_key, consumer_secret, base_url, model_factory) {
   var self = this;
-  self.client = new HttpClient(consumer_key, consumer_secret, pin, base_url);
+  self.client = new HttpClient(consumer_key, consumer_secret, base_url);
   self.base_url = base_url;
   self.model_factory = model_factory || (new ModelFactory());
   self.binder = new Binder(self);
