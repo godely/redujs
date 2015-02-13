@@ -19,7 +19,7 @@ $ sudo npm install git+https://github.com/godely/redujs.git
 ## Como usar a api
 
 A implementação da biblioteca segue os mesmos padrões definidos na [documentação](http://developers.redu.com.br). Ou seja, os argumentos dos metódos possuem os mesmos nomes que foram documentados.
-Por exemplo, se na documentação há uma requisição tipo ``GET`` onde é possível passar um parâmetro ``type`` via querystring, a chamada da função Python teria esse formato:
+Por exemplo, se na documentação há uma requisição tipo ``GET`` onde é possível passar um parâmetro ``type`` via querystring, a chamada da função Javascript teria esse formato:
 
 ```javascript
 redu.nomeDaFuncao({id: "um id", type: "um tipo"}, callback)
@@ -27,7 +27,6 @@ redu.nomeDaFuncao({id: "um id", type: "um tipo"}, callback)
 
 callback é uma função executada assim que a função chamada termina de executar, e ela pode retornar um objeto ou uma lista de objetos.
 
-Para ver os detalhes de todas as funções bastar usar a função ``help`` no shell interativo Python:
 
 ## QuickStart
 
