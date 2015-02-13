@@ -11,6 +11,7 @@
   "author": "Gustavo Stor & André van Drunen",
   "license": "MIT License",
   "dependencies": {
+    "micro-strptime": "^0.2.1",
     "oauth": "^0.9.12",
     "querystring": "^0.2.0",
     "request": "^2.51.0"

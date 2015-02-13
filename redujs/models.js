@@ -10,7 +10,8 @@ var Model = function() {
         var value = this[v];
         if (v == "created_at" || v == "updated_at") {
           stringdate = value.match(/\d+-\d+-[T\d]+:\d+:\d+/)[0];
-          //value = datetime.strptime(stringdate, "%Y-%m-%dT%H:%M:%S")
+          var strptime = require('micro-strptime.js').strptime;
+          value = strptime(stringdate, "%Y-%m-%dT%H:%M:%S")
         } else if (modelFactory && modelFactory.hasOwnProperty(v)) {
           var tipo = modelFactory[v];
           var inner = tipo();
